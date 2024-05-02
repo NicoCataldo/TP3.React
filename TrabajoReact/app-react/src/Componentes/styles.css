@@ -1,0 +1,36 @@
+.navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 0px;
+}
+.Instrumentos{
+  margin-top: 60px;
+}
+
+h1, .Imagen {
+  text-align: center;
+}
+.Mapa{
+  text-align: center;
+}
+
+.Donde{
+  text-align: center;
+}
+.Contenedor{
+  display: flex;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
