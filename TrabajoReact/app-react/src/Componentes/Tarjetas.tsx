@@ -5,7 +5,9 @@ import ItemInstrumento from "./ItemInstrumento";
 
 export const Tarjetas = () => {
   const [instrumentos, setInstrumentos] = useState<Instrumento[]>([]);
-
+  {
+    /*Nota: Primero correr Json server con npm run server*/
+  }
   const getInstrumentos = async () => {
     const datos: Instrumento[] = await getAllInstrumentos();
     setInstrumentos(datos);
