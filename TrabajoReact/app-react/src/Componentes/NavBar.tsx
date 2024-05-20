@@ -5,18 +5,23 @@ export const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="./Home">
+              <a className="nav-link active" aria-current="page" href="/Home">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="./DondeEstamos">
+              <a className="nav-link" href="/DondeEstamos">
                 Donde Estamos
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="./App">
+              <a className="nav-link" href="/App">
                 Productos
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/Grilla">
+                Grilla de Productos
               </a>
             </li>
           </ul>
